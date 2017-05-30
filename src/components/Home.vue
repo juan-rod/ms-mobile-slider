@@ -1,12 +1,9 @@
 <template>
   <div class="pt-page">
     <app-nav-bar></app-nav-bar>
-      <!-- <transition name="router-slide" mode="out-in"> -->
-      <!-- <v-touch @swipeleft="doSomething"> -->
       <transition name="router-slide">
         <router-view></router-view>
       </transition>
-    <!-- </v-touch> -->
     <app-footer-nav></app-footer-nav>
   </div>
 </template>
